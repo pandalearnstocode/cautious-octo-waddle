@@ -27,7 +27,7 @@ jobs:
           to: pandalearnstocode@gmail.com
           from: Aritra Biswas # <user@example.com>
           secure: true
-          html_body: file://README.html
+          html_body: file://email-templates-master/10/index.html
           ignore_cert: true
           convert_markdown: false
           # Optional priority: 'high', 'normal' (default) or 'low'
