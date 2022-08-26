@@ -24,7 +24,7 @@ jobs:
           username: ${{secrets.MAIL_USERNAME}}
           password: ${{secrets.MAIL_PASSWORD}}
           subject: Github Actions job result
-          to: pandalearnstocode@gmail.com
+          to: pandalearnstocode@gmail.com,shekhar.devanshee@gmail.com
           from: Aritra Biswas # <user@example.com>
           secure: true
           html_body: file://README.md
