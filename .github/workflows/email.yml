@@ -27,7 +27,7 @@ jobs:
           to: pandalearnstocode@gmail.com,shekhar.devanshee@gmail.com
           from: Aritra Biswas # <user@example.com>
           secure: true
-          html_body: file://README.md
+          html_body: file://email-templates-master/10/index.html
           attachments: app.log
           convert_markdown: true
           content_type: html
