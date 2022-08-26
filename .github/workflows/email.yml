@@ -28,6 +28,7 @@ jobs:
           from: Aritra Biswas # <user@example.com>
           secure: true
           html_body: file://README.md
+          attachments: app.log
           convert_markdown: true
           content_type: html
           ignore_cert: true
